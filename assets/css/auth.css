@@ -1,0 +1,147 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f1eb;
+    color: #382d25;
+}
+
+.auth-page {
+    min-height: 100vh;
+    padding: 30px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand {
+    margin-bottom: 24px;
+    color: #49372a;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 430px;
+    padding: 34px;
+    background: #fffdf9;
+    border: 1px solid #e6ddd1;
+    border-radius: 16px;
+    box-shadow: 0 12px 35px #49372a12;
+}
+
+.eyebrow {
+    margin: 0 0 10px;
+    color: #997750;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.auth-card h1 {
+    margin: 0 0 10px;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.subtitle {
+    margin: 0 0 25px;
+    color: #83776b;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.auth-card label {
+    display: block;
+    margin: 17px 0 8px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.auth-card input {
+    width: 100%;
+    padding: 12px 13px;
+    border: 1px solid #dcd2c6;
+    border-radius: 8px;
+    background: white;
+    color: #382d25;
+    font: inherit;
+    font-size: 14px;
+}
+
+.auth-card input:focus {
+    outline: 2px solid #b79a78;
+    border-color: #9a7854;
+}
+
+.auth-button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    border: 0;
+    border-radius: 8px;
+    background: #49372a;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.auth-button:hover {
+    background: #624b38;
+}
+
+.auth-switch {
+    margin: 22px 0 16px;
+    text-align: center;
+    color: #75695e;
+    font-size: 13px;
+}
+
+.auth-switch a {
+    color: #795b3b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    color: #75695e;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.alert {
+    margin: 0 0 17px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.alert.error {
+    background: #fbe9e7;
+    color: #9a3029;
+}
+
+.alert.success {
+    background: #e8f3e7;
+    color: #35633b;
+}
+
+@media (max-width: 480px) {
+    .auth-card {
+        padding: 25px 20px;
+    }
+}
